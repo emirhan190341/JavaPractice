@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static NewJava.newPractice2.*;
+import static NewJava.practice.isDivisible;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,13 +35,16 @@ public class Main {
 //        System.out.println(countWordsUsingSplit("Ali came to school and Ayse came to school"));
         //System.out.println(duplicateChar("Duplicate characters in a given string"));
 
-        System.out.println(anagram("tca","cat"));
-        System.out.println(anagram("tca","catas"));
-//        sortArray(new int[]{3,12,4,67,23,14,89,5});
-        System.out.println(getRemainder(100,7));
-
+//        System.out.println(anagram("tca","cat"));
+//        System.out.println(anagram("tca","catas"));
+////        sortArray(new int[]{3,12,4,67,23,14,89,5});
+//        System.out.println(getRemainder(100,7));
         //List<Object> obj = new ArrayList<>(newList);
         //System.out.println(practice.duplicate(obj));
+
+        isDivisible();
+
+
 
 
 

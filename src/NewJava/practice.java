@@ -5,18 +5,15 @@ import java.util.List;
 
 public class practice {
 
-    //8. Write a Program that removes the duplicate elements from given list
-
-    public static List<Object> duplicate(List<Object> input) {
-
-        List<Object> newInput = new ArrayList<>();
-
-        for (Object w : input) {
-            if (!newInput.contains(w)) {
-                newInput.add(w);
-            }
+    public static void isDivisible(){
+        for (int i = 0; i <=100 ; i++) {
+            if(i % 3 == 0)
+                System.out.println(i);
         }
-        return newInput;
+    }
+
+
+
     }
 
 
@@ -26,8 +23,3 @@ public class practice {
 
 
 
-
-
-
-
-}
